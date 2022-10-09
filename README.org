@@ -6,14 +6,11 @@ The original texts of translations are stripped off due to the license
 issue.
 
 ** Replication experiment
-#+NAME: clone repository
 #+BEGIN_SRC sh :results raw
   git clone https://github.com/nehcx/jinmoncom-2022-16-replication.git  # Clone the repository
   cd jinmoncom-2022-16-replication
   docker build --no-cache -t nehcx/jinmoncom-2022-16-replication .  
 #+END_SRC
-
-#+RESULTS[64006120dc248b63997116e2444454fdcc70ce03]: clone repository
 
 
 Excute the following:
@@ -30,14 +27,13 @@ Excute the following:
 #+END_SRC
 
 Check docker container ID:
-#+NAME: check process
-#+BEGIN_SRC sh :results raw
+#+BEGIN_SRC sh 
   docker ps
 #+END_SRC
 
-#+RESULTS[81629cfe2bb7425d432d575a35b8786df7e23caa]: check process
-CONTAINER ID   IMAGE                                 COMMAND   CREATED              STATUS              PORTS     NAMES
-3cc9568c3edb   nehcx/jinmoncom-2022-16-replication   "bash"    About a minute ago   Up About a minute             laughing_dijkstra
+#+RESULTS[34a8427e7c543052e52c6e38ae66627c4958818d]:
+| CONTAINER    | ID                                  | IMAGE | COMMAND | CREATED | STATUS | PORTS | NAMES |         |                   |
+| 3cc9568c3edb | nehcx/jinmoncom-2022-16-replication | bash  |      13 | minutes | ago    | Up    |    13 | minutes | laughing_dijkstra |
 
 
 Copy artifact to local path:
