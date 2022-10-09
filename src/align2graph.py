@@ -1,5 +1,4 @@
 """From alignment info summary to generate graph."""
-import argparse
 import igraph as ig
 from dataclasses import astuple, asdict
 from utils import load_pickle
