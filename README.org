@@ -33,6 +33,6 @@ Check docker container ID:
 
 Copy artifact to local path:
 #+BEGIN_SRC sh
-  docker cp <CONTAINER ID = 3cc9568c3edb>:/opt/app/jinmonvom-2022-16-replication/artifacts/. artifacts/
+  docker cp <CONTAINER ID = 3cc9568c3edb>:/opt/app/jinmoncom-2022-16-replication/artifacts/. artifacts/
 #+END_SRC
 
