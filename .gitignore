@@ -1,0 +1,10 @@
+*.~undo-tree~
+.DS_Store
+*.py#
+/src/__pycache__/
+/src/methods/__pycache__/
+*.pyc
+*.cpython-38.pyc
+/artifacts/query_res.pkl
+/query_res.pkl
+*.html

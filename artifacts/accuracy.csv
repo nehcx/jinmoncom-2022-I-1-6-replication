@@ -1,0 +1,4 @@
+model,source → target,target → source,bidirection
+precision,54.98,11.74,69.77
+recall,61.27,52.09,56.12
+AER,57.61,15.98,62.76
