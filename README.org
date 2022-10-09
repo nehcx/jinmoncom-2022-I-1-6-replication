@@ -31,11 +31,6 @@ Check docker container ID:
   docker ps
 #+END_SRC
 
-#+RESULTS[34a8427e7c543052e52c6e38ae66627c4958818d]:
-| CONTAINER    | ID                                  | IMAGE | COMMAND | CREATED | STATUS | PORTS | NAMES |         |                   |
-| 3cc9568c3edb | nehcx/jinmoncom-2022-16-replication | bash  |      13 | minutes | ago    | Up    |    13 | minutes | laughing_dijkstra |
-
-
 Copy artifact to local path:
 #+BEGIN_SRC sh
   docker cp <CONTAINER ID = 3cc9568c3edb>:/opt/app/jinmonvom-2022-16-replication/artifacts/. artifacts/
