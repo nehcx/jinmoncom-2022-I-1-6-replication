@@ -8,11 +8,11 @@ WORKDIR /opt/app
 RUN apt-get -y update && \
     apt-get -y upgrade && \
     apt-get install --no-install-recommends -yq ssh git curl apt-utils && \
-    apt-get install -yq gcc g++ cmake && \
-    apt-get install libcairo2-dev pkg-config python3-dev
+    apt-get install -y python-igraph 
 
 # Code
 RUN git clone -b main --depth=1 --recursive https://github.com/nehcx/jinmoncom-2022-16-replication
 
 # Python dependencies
-RUN pip install -r jinmoncom-2022-16-replication/requirements.lock
+RUN pip install --upgrade pip && \
+    pip install -r jinmoncom-2022-16-replication/requirements.lock
