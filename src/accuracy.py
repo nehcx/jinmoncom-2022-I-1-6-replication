@@ -72,7 +72,7 @@ def calc(A, S, AP, AS):
     """Return precision, recall, AER."""
     precision = AP / A
     recall = AS / S
-    AER = (AP + AS) / (A + S)
+    AER = 1 - (AP + AS) / (A + S)
     return precision, recall, AER
 
 
