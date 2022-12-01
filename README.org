@@ -2,8 +2,7 @@
 This repository is for replication of the study posted at
 Jinmoncom 2022. The replication experiment requires Docker.
 
-The original texts of translations are stripped off due to the license
-issue.
+Part of raw data is stripped off due to the license issue.
 
 ** Replication experiment
 #+BEGIN_SRC sh :results raw
@@ -31,7 +30,7 @@ Check docker container ID:
   docker ps
 #+END_SRC
 
-Copy artifact to local path:
+Copy artifacts to local path:
 #+BEGIN_SRC sh
   docker cp <CONTAINER ID = 3cc9568c3edb>:/opt/app/jinmoncom-2022-16-replication/artifacts/. artifacts/
 #+END_SRC
