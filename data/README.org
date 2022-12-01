@@ -1,21 +1,21 @@
 #+title: Data description
 #+bibliography: translations/raw_data.bib
 
-|                                                                             |         # of tokens |         # of types |         # of texts |
-|-----------------------------------------------------------------------------+---------------------+--------------------+--------------------|
-| [cite/t/cf:@kaneko_kokinwakashu_1933_ja]                                    |               42439 |               3356 |               1000 |
-| [cite/t/cf:@katagiri_kokinwakashu_1998_ja]                                  |               36362 |               2882 |               1000 |
-| [cite/t/cf:@kojima_kokinwakashu_1989_ja]                                    |               33867 |               2955 |               1000 |
-| [cite/t/cf:@komachiya_kokinwakashugendaigo_1982_ja]                         |               30869 |               2692 |               1000 |
-| [cite/t/cf:@kubota_kokinwakashu_1960_ja]                                    |               32210 |               2701 |               1000 |
-| [cite/t/cf:@kyusojin_kokinwakashu_1979_ja]                                  |               34050 |               2770 |               1000 |
-| [cite/t/cf:@matsuda_shinshaku_1968_ja]                                      |               31860 |               3007 |               1000 |
-| [cite/t/cf:@okumura_kokinwakashu_1978_ja]                                   |               32321 |               3153 |               1000 |
-| [cite/t/cf:@ozawa_kokinwakashu_1971_ja]                                     |               36173 |               3384 |               1000 |
-| [cite/t/cf:@takeoka_kokinwakashu_1976_ja]                                   |               29844 |               2861 |               1000 |
-|-----------------------------------------------------------------------------+---------------------+--------------------+--------------------|
-| 八代集データベース [cite:@hodoscek_development_2022] の古今集に相当する部分 | 16687 \(\times\) 10 | 1496 \(\times\) 10 | 1000 \(\times\) 10 |
-|-----------------------------------------------------------------------------+---------------------+--------------------+--------------------|
-| total                                                                       |              339995 |               8252 |              10000 |
+|                                                                             |     # of tokens |     # of types |     # of texts |
+|-----------------------------------------------------------------------------+-----------------+----------------+----------------|
+| [cite/t/cf:@kaneko_kokinwakashu_1933_ja]                                    |           42439 |           3356 |           1000 |
+| [cite/t/cf:@katagiri_kokinwakashu_1998_ja]                                  |           36362 |           2882 |           1000 |
+| [cite/t/cf:@kojima_kokinwakashu_1989_ja]                                    |           33867 |           2955 |           1000 |
+| [cite/t/cf:@komachiya_kokinwakashugendaigo_1982_ja]                         |           30869 |           2692 |           1000 |
+| [cite/t/cf:@kubota_kokinwakashu_1960_ja]                                    |           32210 |           2701 |           1000 |
+| [cite/t/cf:@kyusojin_kokinwakashu_1979_ja]                                  |           34050 |           2770 |           1000 |
+| [cite/t/cf:@matsuda_shinshaku_1968_ja]                                      |           31860 |           3007 |           1000 |
+| [cite/t/cf:@okumura_kokinwakashu_1978_ja]                                   |           32321 |           3153 |           1000 |
+| [cite/t/cf:@ozawa_kokinwakashu_1971_ja]                                     |           36173 |           3384 |           1000 |
+| [cite/t/cf:@takeoka_kokinwakashu_1976_ja]                                   |           29844 |           2861 |           1000 |
+|-----------------------------------------------------------------------------+-----------------+----------------+----------------|
+| 八代集データベース [cite:@hodoscek_development_2022] の古今集に相当する部分 | 16687 \times 10 | 1496 \times 10 | 1000 \times 10 |
+|-----------------------------------------------------------------------------+-----------------+----------------+----------------|
+| total                                                                       |          339995 |           8252 |          10000 |
 
 #+print_bibliography:

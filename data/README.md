@@ -108,9 +108,9 @@
 <tbody>
 <tr>
 <td class="org-left">八代集データベース (<a href="#citeproc_bib_item_1">Hodošček &#38; Yamamoto, 2022</a>) の古今集に相当する部分</td>
-<td class="org-right">16687 \(\times\) 10</td>
-<td class="org-right">1496 \(\times\) 10</td>
-<td class="org-right">1000 \(\times\) 10</td>
+<td class="org-right">16687 \times 10</td>
+<td class="org-right">1496 \times 10</td>
+<td class="org-right">1000 \times 10</td>
 </tr>
 </tbody>
 
