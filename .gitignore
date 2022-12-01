@@ -8,3 +8,5 @@
 /artifacts/query_res.pkl
 /query_res.pkl
 *.html
+/data/translations/.org-src-babel
+/data/translations/auto/
