@@ -108,9 +108,9 @@
 <tbody>
 <tr>
 <td class="org-left">八代集データベース (<a href="#citeproc_bib_item_1">Hodošček &#38; Yamamoto, 2022</a>) の古今集に相当する部分</td>
-<td class="org-right">166870</td>
-<td class="org-right">1496</td>
-<td class="org-right">1000</td>
+<td class="org-right">16687 \(\times\) 10</td>
+<td class="org-right">1496 \(\times\) 10</td>
+<td class="org-right">1000 \(\times\) 10</td>
 </tr>
 </tbody>
 
@@ -124,8 +124,8 @@
 </tbody>
 </table>
 
-<style>.csl-entry{text-indent: -1.5em; margin-left: 1.5em;}</style><div class="csl-bib-body">
-  <div class="csl-entry"><a id="citeproc_bib_item_1"></a>Hodošček, B., &#38; Yamamoto, H. (2022). Development of datasets of the Hachidaish\\=u and tools for the understanding of the characteristics and historical evolution of classical Japanese poetic vocabulary.: <i>ADHO 2022 - Tokyo</i>.</div>
+<div class="csl-bib-body">
+  <div class="csl-entry"><a id="citeproc_bib_item_1"></a>Hodošček, B., &#38; Yamamoto, H. (2022). Development of datasets of the Hachidaishu and tools for the understanding of the characteristics and historical evolution of classical Japanese poetic vocabulary.: <i>ADHO 2022 - Tokyo</i>.</div>
   <div class="csl-entry"><a id="citeproc_bib_item_2"></a>久曽神 昇. (1979). <i>古今和歌集 全注釈: Vols. 1–5</i>. 講談社.</div>
   <div class="csl-entry"><a id="citeproc_bib_item_3"></a>奥村 恆哉. (1978). <i>古今和歌集</i>. 新潮社.</div>
   <div class="csl-entry"><a id="citeproc_bib_item_4"></a>小島 憲之, &#38; 新井 栄蔵. (1989). <i>古今和歌集</i>. 岩波書店.</div>
@@ -133,7 +133,7 @@
   <div class="csl-entry"><a id="citeproc_bib_item_6"></a>小町谷 照彦. (1982). <i>古今和歌集：現代語訳対照</i>. 旺文社.</div>
   <div class="csl-entry"><a id="citeproc_bib_item_7"></a>松田 武夫. (1968). <i>新釈古今和歌集: Vol. 上下</i>. 風間書房.</div>
   <div class="csl-entry"><a id="citeproc_bib_item_8"></a>片桐 洋一. (1998). <i>古今和歌集全評釈: Vol. 上中下</i>. 講談社.</div>
-  <div class="csl-entry"><a id="citeproc_bib_item_9"></a>窪田 空穂. (1960). <i>古今和歌集評釈: Vol. 上中下</i>. Tokyodo.</div>
+  <div class="csl-entry"><a id="citeproc_bib_item_9"></a>窪田 空穂. (1960). <i>古今和歌集評釈: Vol. 上中下</i>. 東京堂.</div>
   <div class="csl-entry"><a id="citeproc_bib_item_10"></a>竹岡 正夫. (1976). <i>古今和歌集全評釈: 古注七種集成: Vol. 上下</i>. 右文書院.</div>
   <div class="csl-entry"><a id="citeproc_bib_item_11"></a>金子 元臣. (1933). <i>古今和歌集評釈: 昭和新版</i>. 明治書院.</div>
 </div>
