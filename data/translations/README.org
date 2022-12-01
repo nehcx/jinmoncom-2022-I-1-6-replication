@@ -2,11 +2,8 @@
 The original texts of translations are stripped off due to the license
 issue.
 * References
-#+BEGIN_SRC sh :exports results :results raw
-  cat raw_data.bib
-#+END_SRC
 
-#+RESULTS[65f15f13d3c7e1f5e2b3d4ca2f0c25d3381d43cd]:
+#+BEGIN_SRC bib
 @book{kaneko_kokinwakashu_1933_ja,
   title = {古今和歌集評釈: 昭和新版},
   author = {金子, 元臣},
@@ -118,3 +115,4 @@ issue.
   yomi = {Takeoka, Masao}
 }
 
+#+END_SRC
