@@ -1,4 +1,4 @@
-* Jinmoncom-2022-16-replication
+* Jinmoncom-2022-I-1-6-replication
 This repository is for replication of the study posted at
 Jinmoncom 2022. The replication experiment requires Docker.
 
