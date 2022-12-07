@@ -1,7 +1,4 @@
 
-# Table of Contents
-
-
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -107,6 +104,15 @@
 
 <tbody>
 <tr>
+<td class="org-left">八代集データベース (<a href="#citeproc_bib_item_1">Hodošček &#38; Yamamoto, 2022</a>) の古今集に相当する部分</td>
+<td class="org-right">16687 $\times$ 10</td>
+<td class="org-right">1496 </td>
+<td class="org-right">1000 $\times$ 10</td>
+</tr>
+</tbody>
+
+<tbody>
+<tr>
 <td class="org-left">total</td>
 <td class="org-right">339995</td>
 <td class="org-right">8252</td>
@@ -114,15 +120,6 @@
 </tr>
 </tbody>
 </table>
-
-<tbody>
-<tr>
-<td class="org-left">八代集データベース (<a href="#citeproc_bib_item_1">Hodošček &#38; Yamamoto, 2022</a>) の古今集に相当する部分</td>
-<td class="org-right">16687 $\times$ 10</td>
-<td class="org-right">1496 </td>
-<td class="org-right">1000 $\times$ 10</td>
-</tr>
-</tbody>
 
 <div class="csl-bib-body">
   <div class="csl-entry"><a id="citeproc_bib_item_1"></a>Hodošček, B., &#38; Yamamoto, H. (2022). Development of datasets of the Hachidaishu and tools for the understanding of the characteristics and historical evolution of classical Japanese poetic vocabulary.: <i>ADHO 2022 - Tokyo</i>.</div>
