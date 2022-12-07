@@ -85,7 +85,7 @@ source2target["precision"], source2target["recall"], source2target[
     "AER"] = calc(total_A_src2tar, total_S_src2tar, total_A_and_P_src2tar,
                   total_A_and_S_src2tar)
 target2source["precision"], target2source["recall"], target2source[
-    "AER"] = calc(total_A_tar2src, total_A_and_P_tar2src,
+    "AER"] = calc(total_A_tar2src, total_S_tar2src,
                   total_A_and_P_tar2src, total_A_and_S_tar2src)
 bidirection["precision"], bidirection["recall"], bidirection["AER"] = calc(
     total_A_bidirection, total_S_bidirection, total_A_and_P_bidirection,
