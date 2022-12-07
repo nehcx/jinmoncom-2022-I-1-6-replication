@@ -11,8 +11,8 @@ RUN apt-get -y update && \
     apt-get install -y python-igraph 
 
 # Code
-RUN git clone -b main --depth=1 --recursive https://github.com/nehcx/jinmoncom-2022-16-replication
+RUN git clone -b main --depth=1 --recursive https://github.com/nehcx/jinmoncom-2022-I-1-6-replication
 
 # Python dependencies
 RUN pip install --upgrade pip && \
-    pip install -r jinmoncom-2022-16-replication/requirements.lock
+    pip install -r jinmoncom-2022-I-1-6-replication/requirements.lock
