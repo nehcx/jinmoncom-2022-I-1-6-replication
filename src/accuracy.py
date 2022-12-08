@@ -28,16 +28,17 @@ total_A_and_S_bidirection = 0
 total_A_bidirection = 0
 total_S_bidirection = 0
 
+# Count total alignment number, sure link number, possible link number
 for bitext in DB:
     A_src2tar = set(bitext.alignment_source2target)
     A_tar2src = set(bitext.alignment_target2source)
-    A_bidirection = set(bitext.proper_alignment_idx())
+    A_bidirection = set(bitext.proper_alignment_idx())  # bidirection alignment == proper alignment
     S_src2tar = set(bitext.sure_links())
     S_tar2src = set([a[::-1] for a in bitext.sure_links()])
-    S_bidirection = set(bitext.sure_links())
+    S_bidirection = set(bitext.sure_links())  # same direction as src2tar
     P_src2tar = set(bitext.possible_links())
-    P_tar2src = set([a[::-1] for a in bitext.possible_links()])
-    P_bidirection = set(bitext.possible_links())
+    P_tar2src = set([a[::-1] for a in bitext.possible_links()]) 
+    P_bidirection = set(bitext.possible_links())  # same direction as src2tar
 
     n_A_and_P_src2tar = len(A_src2tar.intersection(P_src2tar))
     n_A_and_S_src2tar = len(A_src2tar.intersection(S_src2tar))
@@ -84,8 +85,8 @@ source2target = {}
 target2source = {}
 bidirection = {}
 source2target["precision"], source2target["recall"], source2target[
-    "AER"] = calc(total_A_src2tar, total_S_src2tar, total_A_and_P_src2tar,
-                  total_A_and_S_src2tar)
+    "AER"] = calc(total_A_src2tar, total_S_src2tar,
+                  total_A_and_P_src2tar, total_A_and_S_src2tar)
 target2source["precision"], target2source["recall"], target2source[
     "AER"] = calc(total_A_tar2src, total_S_tar2src,
                   total_A_and_P_tar2src, total_A_and_S_tar2src)
