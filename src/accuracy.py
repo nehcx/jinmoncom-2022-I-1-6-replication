@@ -30,12 +30,14 @@ total_S_bidirection = 0
 
 for bitext in DB:
     A_src2tar = set(bitext.alignment_source2target)
-    A_tar2src = set(bitext.alignment_source2target)
+    A_tar2src = set(bitext.alignment_target2source)
     A_bidirection = set(bitext.proper_alignment_idx())
     S_src2tar = set(bitext.sure_links())
     S_tar2src = set([a[::-1] for a in bitext.sure_links()])
+    S_bidirection = set(bitext.sure_links())
     P_src2tar = set(bitext.possible_links())
     P_tar2src = set([a[::-1] for a in bitext.possible_links()])
+    P_bidirection = set(bitext.possible_links())
 
     n_A_and_P_src2tar = len(A_src2tar.intersection(P_src2tar))
     n_A_and_S_src2tar = len(A_src2tar.intersection(S_src2tar))
@@ -47,10 +49,10 @@ for bitext in DB:
     n_A_tar2src = len(A_tar2src)
     n_S_tar2src = len(S_tar2src)
 
-    n_A_and_P_bidirection = len(A_bidirection.intersection(P_src2tar))
-    n_A_and_S_bidirection = len(A_bidirection.intersection(S_src2tar))
+    n_A_and_P_bidirection = len(A_bidirection.intersection(P_bidirection))
+    n_A_and_S_bidirection = len(A_bidirection.intersection(S_bidirection))
     n_A_bidirection = len(A_bidirection)
-    n_S_bidirection = len(S_src2tar)
+    n_S_bidirection = len(S_bidirection)
 
     total_A_and_P_src2tar += n_A_and_P_src2tar
     total_A_and_S_src2tar += n_A_and_S_src2tar
