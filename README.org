@@ -8,13 +8,13 @@ Part of raw data is stripped off due to the license issue.
 #+BEGIN_SRC sh :results raw
   git clone https://github.com/nehcx/jinmoncom-2022-I-1-6-replication.git  # Clone the repository
   cd jinmoncom-2022-I-1-6-replication
-  docker build --no-cache -t nehcx/jinmoncom-2022-I-1-6-replication .  
+  docker build --no-cache -t nehcx/jinmoncom-2022-i-1-6-replication .  
 #+END_SRC
 
 
 Excute the following:
 #+BEGIN_SRC sh
-  docker run -it --rm nehcx/jinmoncom-2022-I-1-6-replication bash  # enter bash
+  docker run -it --rm nehcx/jinmoncom-2022-i-1-6-replication bash  # enter bash
   root@370280a4058b:/opt/app# cd jinmoncom-2022-I-1-6-replication/
   root@370280a4058b:/opt/app/jinmoncom-2022-I-1-6-replication# make build_bitext  # make bitexts.csv
   root@370280a4058b:/opt/app/jinmoncom-2022-I-1-6-replication# make build_metacode2lemma_dict  # make metacode2lemma dictionary
